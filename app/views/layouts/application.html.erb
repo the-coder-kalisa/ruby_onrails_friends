@@ -11,7 +11,11 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body >
+<%= render 'home/header' %>
+  <main class="container mx-auto">
       <%= yield %>
+  <h1>Footer...</h1>
+  </main>
   </body>
 </html>
